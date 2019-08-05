@@ -18,6 +18,7 @@ Notes: Basic structure download from https://github.com/84tghuynh/Gulp-Bootstrap
        before go further steps below
 
 1. Download from https://bootswatch.com/ these files below to "_resource" folder.
+
 _bootswatch.scss
 _variables.scss
 bootstrap.css
