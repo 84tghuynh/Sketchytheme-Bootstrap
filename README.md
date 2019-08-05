@@ -46,15 +46,23 @@ to src\scss\vendor\bootstrap\_index.scss by adding to lines below
 4. Create scss files in src\scss\partials
 
 _header.scss
+
 _single-product.scss
+
 _similar-products.scss
+
 _footer.scss
 
 Declare the files above into src\scss\partials\_index.scss
+
 @import "header";
+
 @import "single-product";
+
 @import "single-product";
+
 @import "footer";
+
 
 5. index.html
 
