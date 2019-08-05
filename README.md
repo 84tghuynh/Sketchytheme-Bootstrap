@@ -19,53 +19,53 @@ Notes: Basic structure download from https://github.com/84tghuynh/Gulp-Bootstrap
 
 1. Download from https://bootswatch.com/ these files below to "_resource" folder.
 
-_bootswatch.scss
+  _bootswatch.scss
 
-_variables.scss
+  _variables.scss
 
-bootstrap.css
+  bootstrap.css
 
-bootstrap.min.css
+  bootstrap.min.css
 
 
-Then, rename _variables.scss to _sketchy-variables.scss
+  Then, rename _variables.scss to _sketchy-variables.scss
 
 2.
- copy two files:
-  _bootswatch.scss &  _sketchy-variables.scss  
+   copy two files:
+    _bootswatch.scss &  _sketchy-variables.scss  
 
-To src\scss\vendor\bootstrap
+   To src\scss\vendor\bootstrap
 
 3. Declare _bootswatch.scss &  _sketchy-variables.scss
-to src\scss\vendor\bootstrap\_index.scss by adding to lines below
+   to src\scss\vendor\bootstrap\_index.scss by adding to lines below
 
-@import "sketchy-variables";
+   @import "sketchy-variables";
 
-@import "bootswatch";
+   @import "bootswatch";
 
 4. Create scss files in src\scss\partials
 
-_header.scss
+   _header.scss
 
-_single-product.scss
+   _single-product.scss
 
-_similar-products.scss
+   _similar-products.scss
 
-_footer.scss
+   _footer.scss
 
-Declare the files above into src\scss\partials\_index.scss
+   Declare the files above into src\scss\partials\_index.scss
 
-@import "header";
+   @import "header";
 
-@import "single-product";
+   @import "single-product";
 
-@import "single-product";
+   @import "single-product";
 
-@import "footer";
+   @import "footer";
 
 
 5. index.html
 
-Using Navbar:  https://getbootstrap.com/docs/4.3/components/navbar/
+  Using Navbar:  https://getbootstrap.com/docs/4.3/components/navbar/
 
-Using Card-Decks: https://getbootstrap.com/docs/4.3/components/card/#card-decks
+  Using Card-Decks: https://getbootstrap.com/docs/4.3/components/card/#card-decks
