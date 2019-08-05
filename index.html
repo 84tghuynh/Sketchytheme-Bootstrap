@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- <meta charset="utf-8"> -->
+    <title>Gulp-Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">GetBook</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Notebooks
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Plain</a>
+                <a class="dropdown-item" href="#">Rulled</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Custom Print</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <!-- /Header finish -->
+
+    <!-- Main Content -->
+
+    <main class="container">
+      <!-- Single Product -->
+      <div class="single-product">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="img/106902.jpg" alt="" class="single-product__img img-fluid">
+          </div>
+          <div class="col-md-7 single-product__data">
+            <h2 class="single-product__data__title">Plain Notebook</h2>
+            <hr>
+            <p class="single-product__data__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <a href="https://www.freepik.com/free-vectors/business">Business vector created by macrovector_offical-www.freepick.com</a>
+            </p>
+            <table class="table table-sm w-50 single-product__data__table">
+              <tbody>
+                <tr>
+                  <td>Height:</td>
+                  <td>0.5 cm</td>
+                </tr>
+                <tr>
+                  <td>Width:</td>
+                  <td>5 cm</td>
+                </tr>
+                <tr>
+                  <td>Weight:</td>
+                  <td>50 gr</td>
+                </tr>
+                <tr>
+                  <td>SKU</td>
+                  <td>45H61</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="h2 single-product__data__price">$15.00</p>
+            <form class="single_product__data_form" action="index.html" method="post">
+              <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                  <label class="mr-sm-2 sr-only" for="number">Preference</label>
+                  <input class="form-control" type="number" name="quantity" min="1" max="5" id="number" placeholder="1">
+                </div>
+                <div class="col-auto my-1">
+                  <button type="sumbit" class="btn btn-primary">Purchase</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> <!-- Single Product -->
+
+      <!-- Similar Products -->
+      <section class="container similar-products">
+        <h3 class="similar-product__title">Similar Products</h3>
+        <div class="card-deck">
+          <div class="card">
+            <img src="img/1-min.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Notebook Bundle</h5>
+              <p class="card-text"> <a href="https://www.freepik.com/free-photos-vectors/business-cards">Photo created by FreePik</a></p>
+              <p class="card-text">$17.00</p>
+              <a href="#" class="btn btn-primary stretched-link">View</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/2-min.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Yet another notebook</h5>
+              <p class="card-text"> <a href="https://www.freepik.com/free-photos-vectors/business-cards">Photo created by FreePik</a></p>
+              <p class="card-text">$20.00</p>
+              <a href="#" class="btn btn-primary stretched-link">View</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer container">
+        <h2 class="footer_title">GetNotebook</h2>
+        <p class="small">All images are from freepik.com</p>
+      </div>
+    </footer>
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </body>
+</html>

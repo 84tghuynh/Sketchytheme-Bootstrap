@@ -1,0 +1,31 @@
+/**
+  * Write SCSS for single-product
+  *
+  * Author: Truong Giang, Huynh
+  * Created: 08/03/2019
+  * Modified: 08/04/2019
+**/
+
+
+.single-product{
+  border-width: 2px;
+  border-style: solid;
+  border-radius: $border-radius-sketchy;
+  padding: em(25);
+  padding-bottom: em(35);
+
+  &__img {
+    max-width: 100%;
+  }
+
+  &__data {
+    //
+    &__table{
+      margin: em(40) 0;
+    }
+
+    &_price {
+      margin: em(20) 0;
+    }
+  }
+}
