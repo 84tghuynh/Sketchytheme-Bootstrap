@@ -1,5 +1,5 @@
 # Skechytheme-Bootstrap
- A bootstrap theme from Bootswatch
+ Apply Sketchy theme to Project
 
  /**
   * Sketchy theme from Bootswatch site, apply bootstrap
