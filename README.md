@@ -36,6 +36,7 @@ To src\scss\vendor\bootstrap
 to src\scss\vendor\bootstrap\_index.scss by adding to lines below
 
 @import "sketchy-variables";
+
 @import "bootswatch";
 
 4. Create scss files in src\scss\partials
