@@ -14,24 +14,23 @@
   
 **/
 
-Notes: Basic structure download from https://github.com/84tghuynh/Gulp-Bootstrap
-       before go further steps below
+  Notes: Basic structure download from https://github.com/84tghuynh/Gulp-Bootstrap
+         before go further steps below
 
 1. Download from https://bootswatch.com/ these files below to "_resource" folder.
 
-  _bootswatch.scss
+    _bootswatch.scss
 
-  _variables.scss
+    _variables.scss
 
-  bootstrap.css
+    bootstrap.css
 
-  bootstrap.min.css
+    bootstrap.min.css
 
 
-  Then, rename _variables.scss to _sketchy-variables.scss
+    Then, rename _variables.scss to _sketchy-variables.scss
 
-2.
-   copy two files:
+2. copy two files:
     _bootswatch.scss &  _sketchy-variables.scss  
 
    To src\scss\vendor\bootstrap
